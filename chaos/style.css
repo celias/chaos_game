@@ -5,3 +5,11 @@ html, body {
   text-align: center;
   padding: 40px;
 }
+
+@media screen and (max-width: 600px) { 
+		html, body {
+			float: none;
+			margin:0;
+			width: 100%;
+		}
+	}
